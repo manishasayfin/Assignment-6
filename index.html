@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food Ordering Card</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
         body {
-            background-color: #f6f7f9;
+            background-color: #1e1e1e;
+            background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/foodbg.png');
+            background-size: cover;
+            background-position: center;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -19,45 +23,41 @@
             padding: 40px 30px;
             border-radius: 16px;
             text-align: center;
-            box-shadow: 0 4px 18px rgba(0,0,0,0.1);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
         }
-        .card img {
-            width: 75px;
-            height: 75px;
+        .card h1 {
+            color: #6c8091;
+            font-size: 24px;
+            font-weight: 700;
             margin-bottom: 10px;
         }
-        .card h2 {
-            font-size: 22px;
-            font-weight: 600;
-            margin: 10px 0 12px 0;
-            color: #000000;
-            font-family: 'Poppins', sans-serif;
-        }
         .card p {
-            font-size: 14px;
-            color: #585858;
-            line-height: 1.6;
-            margin: 0 0 25px 0;
-            font-family: 'Poppins', sans-serif;
+            color: #d0b200;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        .card img {
+            width: 150px;
+            margin: 15px 0;
         }
         .card button {
-            background-color: white;
-            color: #D0B200;
-            border: 1.5px solid #D0B200;
-            padding: 10px 28px;
+            background-color: #d0b200;
+            color: white;
+            border: none;
+            padding: 12px 30px;
             border-radius: 8px;
-            font-size: 14px;
             font-weight: 600;
-            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
             cursor: pointer;
         }
     </style>
 </head>
 <body>
     <div class="card">
-        <img src="https://ik.imagekit.io/4z8covdo9/Fullstack/food-serve.png?updatedAt=1702142726430" alt="Food Service">
-        <h2>Food Service</h2>
-        <p>Experience fine dining at the comfort of your home. All our orders are carefully packed and arranged to give you the nothing less than perfect.</p>
+        <h1>Fast & Free Delivery</h1>
+        <p>Delicious food delivered to your doorstep</p>
+        <img src="https://ik.imagekit.io/4z8covdo9/Full%20stack/em-ginger-fried-img.png" alt="Food">
+        <br>
         <button>Order Now</button>
     </div>
 </body>
